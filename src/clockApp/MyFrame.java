@@ -71,13 +71,5 @@ public class MyFrame extends JFrame {
 		
 		date = dateFormat.format(calander.getInstance().getTime()) ;
 		dateLabel.setText(date);
-		
-		try {
-			Thread.sleep(1000);
-			}catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-		}
-		
 	}
 }
